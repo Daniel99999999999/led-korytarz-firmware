@@ -1,0 +1,6 @@
+action: mqtt.publish
+data:
+  topic: "sterownik-led/sterownik_led_XXXXXXXXXXXX/ota/set"
+  payload: "https://github.com/Daniel99999999999/led-korytarz-firmware/releases/download/v0.10.4/firmware.bin?pio_sha256=df2b5fa029af28ca"
+  qos: 1
+  retain: false
